@@ -30,7 +30,7 @@
 					type="number"
 					label="Aantal videos"
 					description="Hoeveel videos wil je tonen?"
-					default="5"
+					default="4"
 				/>
 			</fieldset>
 
