@@ -12,9 +12,12 @@
 defined('_JEXEC') or die;
 ?>
 <div class="videofeed <?php echo $moduleclass_sfx; ?>">
-	<div class="videofeed-title" style="background-color: <?PHP echo $color; ?>">
-		<span class="icon icon-play" aria-hidden="true"></span> <?PHP echo $module->title; ?>
-	</div>
+	<a href="<?PHP echo $list->author->uri; ?>">
+		<div class="videofeed-title" style="background-color: <?PHP echo $color; ?>">
+			<span class="icon icon-play" aria-hidden="true"></span> <?PHP echo $module->title; ?>
+			<span class="icon icon-chevron-right" style="float: right;"></span>
+		</div>
+	</a>
 	<div class="custom-row">
 			<?PHP
 			$i = -1;
