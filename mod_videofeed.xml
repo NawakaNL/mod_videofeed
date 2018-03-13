@@ -21,6 +21,9 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
+
+				<field name="channel" type="text" default="UCkxt3kmzDJMAlevYEOF3BEw" label="Enter some text" description="Zoek in de page source van het Youtube kanaal naar meta property og:url en voeg het gedeelte na /channel/ toe." />
+
 				<field name="color" type="color" default="#010050"
 						label="Kleur"
 						description="Kleur" />

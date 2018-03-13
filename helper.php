@@ -27,9 +27,9 @@ abstract class ModVideoFeedHelper
 	 *
 	 * @since   1.6
 	 */
-	public static function getList(&$params)
+	public static function getList($channelId, &$params)
 	{
-		$url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCtBQU-OZ4orbbv5_LgQR-gw";
+		$url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCkxt3kmzDJMAlevYEOF3BEw";
 		$xml = simplexml_load_file($url);
 		return $xml;
 	}
