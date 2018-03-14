@@ -24,6 +24,9 @@
   height: auto;
 }
 
+.videofeed a {
+  text-decoration: none;
+}
 /* ==== GRID SYSTEM ==== */
 
 .custom-row {
