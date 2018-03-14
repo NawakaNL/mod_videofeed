@@ -25,7 +25,7 @@ defined('_JEXEC') or die;
 				if (++$i == $count) break;
 
 			?>
-			<div class="custom-col-3 custom-col-12-sm">
+			<div class="custom-col-3 custom-col-6-sm">
 				<div class="row-content">
 					<a href="https://www.youtube.com/watch?v=<?php echo substr($entry->id, 9); ?>" data-lity>
 						<img src="https://i.ytimg.com/vi/<?php print substr($entry->id, 9); ?>/mqdefault.jpg"/>
