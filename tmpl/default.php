@@ -30,7 +30,7 @@ defined('_JEXEC') or die;
 					<a href="https://www.youtube.com/watch?v=<?php echo substr($entry->id, 9); ?>" data-lity>
 						<img src="https://i.ytimg.com/vi/<?php print substr($entry->id, 9); ?>/mqdefault.jpg"/>
 						<h3><?php echo $entry->title; ?></h3>
-						<h4><?php echo ($entry->author->name); ?></h4>
+						<h4><i class="fab fa-youtube"></i> <?php echo ($entry->author->name); ?></h4>
 					</a>
 				</div>
 			</div>
